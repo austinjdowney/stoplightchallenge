@@ -1,0 +1,88 @@
+:root{
+    --primary: black; 
+}
+
+.container{
+    background-color: darkgray;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    background-size: cover;
+}
+
+.pole{
+    background-color: black;
+    height: 9rem;
+    width: 5rem;
+    margin: auto;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    background-size: cover;
+}
+
+.box{
+    background-color: black;
+    height: 35rem;
+    width: 15rem;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    background-size: cover;
+}
+
+.light{
+    /*background-image: url(/*copy and aste png url for texture heropatterns or kindpng.com works*/
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    background-size: cover;
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red:hover{
+    box-shadow: 0 0 1.5em 1em pink;
+}
+
+.green:hover{
+    box-shadow: 0 0 1.5em 1em limegreen;
+}
+
+.yellow:hover{
+    box-shadow: 0 0 1.5em 1em yellowgreen;
+}
+/* easier to just do .light{ with all the same properties besides color to cut down on code}
+.red{
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 50%
+}
+
+.green{
+    background-color: green;
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 50%;
+}
+.yellow{
+    background-color: yellow;
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 50%;
+}
+*/
